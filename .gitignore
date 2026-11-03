@@ -1,0 +1,17 @@
+# Ключи и локальные настройки — не коммитить
+.env
+
+# Результаты batch-прогона (генерируются при запуске)
+products/out/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+.pytest_cache/
